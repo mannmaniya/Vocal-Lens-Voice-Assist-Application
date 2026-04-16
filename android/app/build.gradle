@@ -1,0 +1,53 @@
+// App-level build.gradle (android/app/build.gradle)
+plugins {
+    id "com.android.application"    // Android application plugin
+    id 'com.google.gms.google-services'    // Firebase Google services plugin
+    id "kotlin-android"    // Kotlin plugin
+    id "dev.flutter.flutter-gradle-plugin"    // Flutter plugin
+}
+
+android {
+    namespace = "com.example.vocal_lens"    // Your app's namespace
+    compileSdk = 36   // Set compile SDK version to 34
+    ndkVersion = "28.2.13676358"    // NDK version
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17  // Set Java compatibility version
+        targetCompatibility JavaVersion.VERSION_17  // Set target Java compatibility version
+    }
+
+    kotlinOptions {
+        jvmTarget = "17"    // Set Kotlin JVM target version
+    }
+
+    defaultConfig {
+        applicationId = "com.example.vocal_lens"    // Your app's application ID
+        minSdkVersion = 27    // Minimum SDK version
+        targetSdk = 36    // Target SDK version
+        versionCode = 1    // App version code
+        versionName = "1.0"    // App version name
+    }
+
+    buildTypes {
+        release {
+            signingConfig = signingConfigs.debug    // Set signing config for release build
+        }
+    }
+}
+
+dependencies {
+    // Firebase BOM for version management (use the latest stable version)
+    implementation platform('com.google.firebase:firebase-bom:33.7.0')  
+    implementation 'com.google.firebase:firebase-auth'    // Firebase authentication
+    // Add other Firebase dependencies as needed
+
+    implementation 'com.google.firebase:firebase-firestore'    // Firebase Firestore (if needed)
+    implementation 'com.google.firebase:firebase-analytics'    // Firebase Analytics (if needed)
+}
+
+flutter {
+    source = "../.."    // Set the source directory for Flutter project
+}
+
+// Apply Google Services plugin at the end of the file
+apply plugin: 'com.google.gms.google-services'

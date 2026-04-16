@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "407629543154",
+    "project_id": "vocal-lens",
+    "storage_bucket": "vocal-lens.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:407629543154:android:b8406e103d52642388026b",
+        "android_client_info": {
+          "package_name": "com.example.vocal_lens"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "407629543154-g7dtbfkgv0r0jvd19p2cuvloqm7n7a14.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vocal_lens",
+            "certificate_hash": "92de1a24b01527da6ff5a9254e5ec743212e88de"
+          }
+        },
+        {
+          "client_id": "407629543154-2d3orklbrpoo2oe9jngupd672bob5434.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfeDoGD4uDJMNcQrAKMTHFIyyG2VH3_-c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "407629543154-2d3orklbrpoo2oe9jngupd672bob5434.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "407629543154-94hqml3qh45opkofrad0hhl428f6tjh6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.vocalLens"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

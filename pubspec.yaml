@@ -1,0 +1,67 @@
+name: vocal_lens
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  flexify: ^2.1.1
+  flutter_screenutil: ^5.9.3
+  speech_to_text: ^7.0.0
+  http: ^1.2.2
+  font_awesome_flutter: ^10.8.0
+  google_generative_ai: ^0.4.6
+  easy_localization: ^3.0.0
+  flutter_slidable: ^3.1.2
+  flutter_glow: ^0.3.2
+  timeline_tile: ^2.0.0
+  flutter_spinkit:
+  get_storage:
+  lottie:
+  introduction_screen: ^3.1.14
+  share_plus:
+  firebase_core: ^3.10.0
+  google_sign_in: ^6.2.2
+  firebase_auth: ^5.4.0
+  firebase_storage: ^12.4.0
+  image_picker: ^1.1.2
+  fluttertoast: ^8.2.10
+  cloud_firestore: ^5.6.1
+  permission_handler: ^11.3.1
+  flutter_tts: ^4.2.2
+  youtube_player_flutter: ^9.1.1
+  youtube_player_iframe: ^5.2.1
+  feature_discovery: ^0.14.2
+  porcupine_flutter: ^3.0.4
+  youtube_explode_dart: ^2.3.10
+  path_provider: ^2.0.5
+  just_audio:
+  audio_session: ^0.1.6
+  flutter_gemma: ^0.12.6
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: "^0.14.2"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "Assets/Logo/logo.jpg"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/Assets/
+    - lib/Views/SplashScreen/Assets/loader.json
+    - lib/Views/ApplicationFeaturesPage/Assets/
+    - Assets/Vocal_en_android_v3_0_0.ppn
