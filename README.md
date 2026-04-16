@@ -65,7 +65,7 @@ Vocal Lens is a sophisticated AI-powered voice assistant application built with 
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/kunal-gangani/Vocal-Lens-Voice-Assist-Application.git
+   git clone https://github.com/mannmaniya/Vocal-Lens-Voice-Assist-Application.git
    cd Vocal-Lens-Voice-Assist-Application
    ```
 
