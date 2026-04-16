@@ -133,9 +133,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 📬 Contact
 
-**Kunal Gangani** - [LinkedIn](https://www.linkedin.com/in/kunal-g-1a17893b3/) - thekunalgangani@gmail.com
+**Kunal Gangani** - [LinkedIn](https://www.linkedin.com/in/mann-maniya-77a8b5367) - mannmaniya7@gmail.com
 
-Project Link: [https://github.com/kunal-gangani/Vocal-Lens-Voice-Assist-Application](https://github.com/kunal-gangani/Vocal-Lens-Voice-Assist-Application)
+Project Link: [https://github.com/mannmaniya/Vocal-Lens-Voice-Assist-Application](https://github.com/mannmaniya/Vocal-Lens-Voice-Assist-Application)
 
 ---
 
