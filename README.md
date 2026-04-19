@@ -133,7 +133,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 📬 Contact
 
-**Kunal Gangani** - [LinkedIn](https://www.linkedin.com/in/mann-maniya-77a8b5367) - mannmaniya7@gmail.com
+**Mann Maniya** - [LinkedIn](https://www.linkedin.com/in/mann-maniya-77a8b5367) - mannmaniya7@gmail.com
 
 Project Link: [https://github.com/mannmaniya/Vocal-Lens-Voice-Assist-Application](https://github.com/mannmaniya/Vocal-Lens-Voice-Assist-Application)
 
